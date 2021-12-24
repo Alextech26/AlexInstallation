@@ -1,6 +1,6 @@
 #! /bin/bash
+# This process is done after the volume has been created in AWS in the same region as the EC2 instance and attached to the instance
 # This is a script to format and mount a newly attached volume to an instance
-
 # Use the list block command to know what you have presently and active
 lsblk
 #check the information about the file system
