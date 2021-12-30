@@ -23,9 +23,9 @@ sudo curl -O https://pkg.jenkins.io/redhat-stable/jenkins.repo
 sudo yum -y install jenkins  --nobest
 
 # start Jenkins service and verify Jenkins is running
-sudo systemctl start jenkins
-sudo systemctl enable jenkins
-sudo systemctl status jenkins
+sudo service jenkins start
+sudo service jenkins enable
+sudo service jenkins status
 
 # Access Jenkins from the browser
 # public-ip:8080
